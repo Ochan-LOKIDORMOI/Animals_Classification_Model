@@ -40,13 +40,15 @@ between wild and domestic animals due to the model's inability to generalize on 
 L1 regularization was introduced to the model to penalize large weights and control overfitting.
 Additionally, early stopping was employed to halt training if no improvement in validation accuracy was observed for several epochs.
 
+![Screenshot 2024-10-13 053607](https://github.com/user-attachments/assets/2980a7e1-1ec5-4924-b993-68b19f90f338)
+
 
 ### **Results:**
 - Despite the introduction of L1 regularization and early stopping, the model struggled,
 with validation accuracy fluctuating around 52.5%. 
 The early stopping feature helped in avoiding unnecessary training, but the L1 regularization 
 did not improve the performance significantly.
-- This led to the model underfitting the data, especially for the minority class, as shown in the confusion matrix.
+- This led to the model underfitting the data, especially for the minority class, as shown in the confusion matrix above.
 
 ## **3. L1 Regularization (No Early Stopping)**
 To test the isolated effect of L1 regularization, another model was trained without the early stopping mechanism.
