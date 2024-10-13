@@ -75,6 +75,9 @@ and the F1 score suggests that both precision and recall are improved.
 ## **5. L2 Regularization, RMSprop Optimizer, and Early Stopping**
 In this model, the optimizer was switched from Adam to RMSprop, and early stopping was reintroduced to further enhance performance.
 
+![Screenshot 2024-10-13 055512](https://github.com/user-attachments/assets/6a22c45d-717e-4627-a24e-765ad1c0629c)
+
+
 ### **Results:**
 - While the performance improved slightly, the validation accuracy did not surpass the previous L2 regularization model,
 showing that changing the optimizer and adding early stopping was not as impactful in this context.
