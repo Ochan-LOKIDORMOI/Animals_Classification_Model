@@ -53,10 +53,13 @@ did not improve the performance significantly.
 ## **3. L1 Regularization (No Early Stopping)**
 To test the isolated effect of L1 regularization, another model was trained without the early stopping mechanism.
 
+![Screenshot 2024-10-13 162910](https://github.com/user-attachments/assets/bf4c694c-5148-413e-882d-909c3029f52e)
+
+
 ### **Results:**
-- Without early stopping, the model was able to learn more from the training data, 
-leading to an improvement in performance.
-- However, the sparsity from L1 regularization still prevents the model from achieving higher accuracy.
+- Just like L1 regularization with early stopping and Adam Optimizer, the model still can't predict correctly.
+ In this case, we will try another optimization method and see.
+- The sparsity from L1 regularization still prevents the model from achieving higher accuracy.
 Recall might be particularly low, as evidenced by the imbalance in the confusion matrix.
 
 ## **4. L2 Regularization (No Early Stopping)**
