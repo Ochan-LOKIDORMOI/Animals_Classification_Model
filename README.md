@@ -111,3 +111,5 @@ off neurons during training and reduce reliance on specific features.
 ### **Validation Performance:**
 - **Confusion Matrix:** Showed higher false negatives than the best model, indicating that the model had trouble identifying domestic animals.
 - **F1 Score:** The F1 score was moderate, with the model underperforming compared to other L2 regularized models.
+
+## **Model Evaluation and Performance**
