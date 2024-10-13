@@ -140,3 +140,21 @@ off neurons during training and reduce reliance on specific features.
 
 - The **training loss** decreases more quickly than the validation loss, reaching a low point around **0.5**, while the **validation loss** remains slightly higher, stabilizing around the same value. 
 - This suggests that while the model is fitting the training data well, it still struggles with some variance on the validation data.
+
+
+
+This section shows a comparison of test accuracy across six different models, each employing different optimization techniques.
+
+## **Key Models and Test Accuracies:**
+
+#### **Vanilla Model:** Achieved a test accuracy of 77%, which serves as the baseline for comparison.
+
+### **L1 Regularization with Early Stopping and Adam:** Test accuracy of 57.6%, showing that L1 regularization and early stopping did not work well together in this case, leading to underfitting.
+
+### **L1 Regularization without Early Stopping:** Test accuracy of 50.5%, which is even lower, indicating that L1 regularization alone was not effective.
+
+### **L2 Regularization without Early Stopping:** Test accuracy of **78%**, indicating that L2 regularization worked better than L1, allowing the model to generalize better while still avoiding overfitting.
+
+### **L2 Regularization with RMSprop and Early Stopping:** Achieved a test accuracy of 68%, showing that this combination helped the model perform even better by utilizing a different optimizer and early stopping to prevent overfitting.
+
+### **L2 Regularization with Dropout:** Achieved a test accuracy of 67%. The introduction of dropout slightly hindered performance, likely because it randomly deactivates neurons during training, making it harder for the model to learn certain features.
