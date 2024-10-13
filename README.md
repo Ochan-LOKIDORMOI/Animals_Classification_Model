@@ -113,3 +113,27 @@ off neurons during training and reduce reliance on specific features.
 - **F1 Score:** The F1 score was moderate, with the model underperforming compared to other L2 regularized models.
 
 ## **Model Evaluation and Performance**
+- This figure illustrates the Model Accuracy and Model Loss over 20 training epochs.
+- Two key curves are plotted using model4 since it is the best performing model.
+
+![Screenshot 2024-10-13 180111](https://github.com/user-attachments/assets/fd0deeac-025f-47e4-b7e2-1397b6716468)
+
+## **Model Accuracy (Top Graph):**
+
+- The blue line represents the accuracy on the training dataset.
+- The orange line represents the accuracy on the validation dataset.
+
+## **As the training progresses:**
+
+- Training accuracy rises steadily, indicating that the model is learning well on the training set, reaching around **80-82%** by the end of training.
+- Validation accuracy fluctuates but generally improves over time, reaching around **70-75%** towards the final epochs. -
+- This indicates that the model is generalizing fairly well to unseen data, though there is some variability due to potential overfitting.
+  
+## **Model Loss (Bottom Graph):**
+
+- The blue line represents the loss on the training dataset.
+- The orange line represents the loss on the validation dataset.
+- Both training and validation losses decrease rapidly in the first few epochs, stabilizing at lower values as training continues:
+
+- The **training loss** decreases more quickly than the validation loss, reaching a low point around **0.5**, while the **validation loss** remains slightly higher, stabilizing around the same value. 
+- This suggests that while the model is fitting the training data well, it still struggles with some variance on the validation data.
