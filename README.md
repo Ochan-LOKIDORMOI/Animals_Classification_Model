@@ -63,17 +63,26 @@ To test the isolated effect of L1 regularization, another model was trained with
 Recall might be particularly low, as evidenced by the imbalance in the confusion matrix.
 
 ## **4. L2 Regularization (No Early Stopping)**
-L2 regularization, which discourages large weight values by penalizing them, 
-was tested as another form of regularization without early stopping.
+This model uses L2 regularization (also known as ridge regression) to prevent overfitting by penalizing large weights more gradually than L1 regularization.
 
 ![Screenshot 2024-10-13 055228](https://github.com/user-attachments/assets/d8b76e4c-0cc7-4127-855d-03077c6c5d8f)
 
+### **Key Highlights of Training:**
 
-### **Results:**
-- This model effectively controls overfitting while maintaining model complexity,
-leading to the best results across all key metrics.
-- The confusion matrix reflects a more balanced distribution of errors, 
-and the F1 score suggests that both precision and recall are improved.
+- **Epochs:** Trained for 20 epochs without early stopping, allowing the model to fully learn from the training data.
+- **L2 Regularization Impact:** L2 regularization smoothed the loss curve, preventing the model from overfitting too early while still allowing it to capture essential patterns in the data.
+
+### **Training Progress:**
+
+- **Accuracy Improvement:** The model's accuracy increased from around 60% to over 78%, outperforming the previous models.
+- **Validation Accuracy:** Validation accuracy reached its peak at around 78%, showing that the model was generalizing well.
+- **Loss Curve:** Unlike the vanilla model, the validation loss continued to decrease steadily, indicating that the model was learning effectively and avoiding overfitting.
+
+### **Validation Performance:**
+
+- **Confusion Matrix:** The confusion matrix showed fewer false positives and false negatives compared to earlier models, indicating better class separation.
+- **Specificity:** This model had the highest specificity, meaning it was particularly good at correctly identifying domestic animals.
+- **F1 Score:** The F1 score improved significantly, indicating better balance between precision and recall.
 
 ## **5. L2 Regularization, RMSprop Optimizer, and Early Stopping**
 In this model, the optimizer was switched from Adam to RMSprop, and early stopping was reintroduced to further enhance performance.
