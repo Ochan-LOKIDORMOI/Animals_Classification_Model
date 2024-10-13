@@ -27,6 +27,8 @@ The baseline model was constructed using the following layers:
 - A fully connected dense layer with 128 units and ReLU activation
 - Output layer with a sigmoid activation for binary classification
 
+![Screenshot 2024-10-13 053126](https://github.com/user-attachments/assets/0c2ab484-f761-431a-a0c4-06107770b1f8)
+
 
 ### **Results and Findings**
 - Accuracy improved progressively over epochs, achieving a validation accuracy of 97.55% and test accuracy of 79.34%.
