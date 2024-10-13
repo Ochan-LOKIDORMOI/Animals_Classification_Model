@@ -116,9 +116,9 @@ off neurons during training and reduce reliance on specific features.
 - This figure illustrates the Model Accuracy and Model Loss over 20 training epochs.
 - Two key curves are plotted using model4 since it is the best performing model.
 
-![Screenshot 2024-10-13 180111](https://github.com/user-attachments/assets/fd0deeac-025f-47e4-b7e2-1397b6716468)
-
 ## **Model Accuracy (Top Graph):**
+
+![Screenshot 2024-10-13 180111](https://github.com/user-attachments/assets/fd0deeac-025f-47e4-b7e2-1397b6716468)
 
 - The blue line represents the accuracy on the training dataset.
 - The orange line represents the accuracy on the validation dataset.
