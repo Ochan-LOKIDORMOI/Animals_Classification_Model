@@ -116,7 +116,7 @@ off neurons during training and reduce reliance on specific features.
 - This figure illustrates the Model Accuracy and Model Loss over 20 training epochs.
 - Two key curves are plotted using model4 since it is the best performing model.
 
-## **Model Accuracy (Top Graph):**
+## **Model Accuracy Graph:**
 
 ![Screenshot 2024-10-13 180111](https://github.com/user-attachments/assets/fd0deeac-025f-47e4-b7e2-1397b6716468)
 
@@ -129,7 +129,7 @@ off neurons during training and reduce reliance on specific features.
 - Validation accuracy fluctuates but generally improves over time, reaching around **70-75%** towards the final epochs. -
 - This indicates that the model is generalizing fairly well to unseen data, though there is some variability due to potential overfitting.
   
-## **Model Loss (Bottom Graph):**
+## **Model Loss Graph:**
 
 ![Screenshot 2024-10-13 180146](https://github.com/user-attachments/assets/a21b7a2e-5da6-4bb1-a0d1-98d59460dcaa)
 
