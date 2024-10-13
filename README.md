@@ -141,13 +141,14 @@ off neurons during training and reduce reliance on specific features.
 - The **training loss** decreases more quickly than the validation loss, reaching a low point around **0.5**, while the **validation loss** remains slightly higher, stabilizing around the same value. 
 - This suggests that while the model is fitting the training data well, it still struggles with some variance on the validation data.
 
+**Model Comparisions**
+- This section shows a comparison of test accuracy across six different models, each employing different optimization techniques.
 
-
-This section shows a comparison of test accuracy across six different models, each employing different optimization techniques.
+![Screenshot 2024-10-13 181608](https://github.com/user-attachments/assets/47d76c32-7edd-4744-8a14-143692737870)
 
 ## **Key Models and Test Accuracies:**
 
-#### **Vanilla Model:** Achieved a test accuracy of 77%, which serves as the baseline for comparison.
+**Vanilla Model:** Achieved a test accuracy of 77%, which serves as the baseline for comparison.
 
 ### **L1 Regularization with Early Stopping and Adam:** Test accuracy of 57.6%, showing that L1 regularization and early stopping did not work well together in this case, leading to underfitting.
 
