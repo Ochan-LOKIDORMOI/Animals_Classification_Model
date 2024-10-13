@@ -150,9 +150,9 @@ off neurons during training and reduce reliance on specific features.
 
 **Vanilla Model:** Achieved a test accuracy of 77%, which serves as the baseline for comparison.
 
-**L1 Regularization with Early Stopping and Adam:** Test accuracy of 57.6%, showing that L1 regularization and early stopping did not work well together in this case, leading to underfitting.
+**L1 Regularization with Early Stopping and Adam:** Test accuracy of 55%, showing that L1 regularization and early stopping did not work well together in this case, leading to underfitting.
 
-**L1 Regularization without Early Stopping:** Test accuracy of 50.5%, which is even lower, indicating that L1 regularization alone was not effective.
+**L1 Regularization without Early Stopping:** Test accuracy of 55%, which is even lower, indicating that L1 regularization alone was not effective.
 
 **L2 Regularization without Early Stopping:** Test accuracy of **78%**, indicating that L2 regularization worked better than L1, allowing the model to generalize better while still avoiding overfitting.
 
