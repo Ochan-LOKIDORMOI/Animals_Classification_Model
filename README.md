@@ -12,7 +12,7 @@ The dataset used consists of images categorized into two classes:
 
 - Wild Animals
 - Domestic Animals
-The images were preprocessed by resizing them to a standard size of 150x150 pixels 
+- The images were preprocessed by resizing them to a standard size of 150x150 pixels 
 and normalizing the pixel values by scaling between 0 and 1.
 
 ## **Model Architectures and Optimization Techniques**
@@ -74,8 +74,8 @@ This model uses L2 regularization (also known as ridge regression) to prevent ov
 
 ### **Training Progress:**
 
-- **Accuracy Improvement:** The model's accuracy increased from around 60% to over 78%, outperforming the previous models.
-- **Validation Accuracy:** Validation accuracy reached its peak at around 78%, showing that the model was generalizing well.
+- **Accuracy Improvement:** The model's accuracy increased from around 60% to over 82%, outperforming the previous models.
+- **Validation Accuracy:** Validation accuracy reached its peak at around 75%, showing that the model was generalizing well.
 - **Loss Curve:** Unlike the vanilla model, the validation loss continued to decrease steadily, indicating that the model was learning effectively and avoiding overfitting.
 
 ### **Validation Performance:**
