@@ -131,6 +131,9 @@ off neurons during training and reduce reliance on specific features.
   
 ## **Model Loss (Bottom Graph):**
 
+![Screenshot 2024-10-13 180146](https://github.com/user-attachments/assets/a21b7a2e-5da6-4bb1-a0d1-98d59460dcaa)
+
+
 - The blue line represents the loss on the training dataset.
 - The orange line represents the loss on the validation dataset.
 - Both training and validation losses decrease rapidly in the first few epochs, stabilizing at lower values as training continues:
