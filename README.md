@@ -101,6 +101,12 @@ off neurons during training and reduce reliance on specific features.
 ![Screenshot 2024-10-13 055800](https://github.com/user-attachments/assets/93af8dc0-ce47-4b52-9269-7be0ec2282ed)
 
 
-### **Results:**
-- The combination of L2 regularization and dropout achieved consistent results, with validation accuracy around 70%.
-While not outperforming the best L2 model, this technique effectively reduced overfitting.
+### **Key Highlights of Training:**
+- **Dropout:** Dropout helped mitigate overfitting, but when used in combination with L2 regularization, it sometimes led to underfitting.
+
+**Training Progress:**
+- **Accuracy:** The model’s accuracy hovered around 68%, which was lower than other models using L2 regularization without dropout.
+**Validation Accuracy:** Validation accuracy remained moderate at 67%, and the model struggled to surpass that.
+Validation Performance:
+**Confusion Matrix:** Showed higher false negatives than the best model, indicating that the model had trouble identifying domestic animals.
+**F1 Score:** The F1 score was moderate, with the model underperforming compared to other L2 regularized models.
