@@ -37,8 +37,8 @@ between wild and domestic animals due to the model's inability to generalize on 
 
 
 ## **2. L1 Regularization and Early Stopping**
-  L1 regularization was introduced to the model to penalize large weights and control overfitting.
-Additionally, early stopping was employed to halt training if no improvement in validation accuracy was observed for several epochs.
+- L1 regularization was introduced to the model to penalize large weights and control overfitting.
+- Additionally, early stopping was employed to halt training if no improvement in validation accuracy was observed for several epochs.
 
 ![Screenshot 2024-10-13 053607](https://github.com/user-attachments/assets/2980a7e1-1ec5-4924-b993-68b19f90f338)
 
