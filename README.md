@@ -150,12 +150,16 @@ off neurons during training and reduce reliance on specific features.
 
 **Vanilla Model:** Achieved a test accuracy of 77%, which serves as the baseline for comparison.
 
-### **L1 Regularization with Early Stopping and Adam:** Test accuracy of 57.6%, showing that L1 regularization and early stopping did not work well together in this case, leading to underfitting.
+**L1 Regularization with Early Stopping and Adam:** Test accuracy of 57.6%, showing that L1 regularization and early stopping did not work well together in this case, leading to underfitting.
 
-### **L1 Regularization without Early Stopping:** Test accuracy of 50.5%, which is even lower, indicating that L1 regularization alone was not effective.
+**L1 Regularization without Early Stopping:** Test accuracy of 50.5%, which is even lower, indicating that L1 regularization alone was not effective.
 
-### **L2 Regularization without Early Stopping:** Test accuracy of **78%**, indicating that L2 regularization worked better than L1, allowing the model to generalize better while still avoiding overfitting.
+**L2 Regularization without Early Stopping:** Test accuracy of **78%**, indicating that L2 regularization worked better than L1, allowing the model to generalize better while still avoiding overfitting.
 
-### **L2 Regularization with RMSprop and Early Stopping:** Achieved a test accuracy of 68%, showing that this combination helped the model perform even better by utilizing a different optimizer and early stopping to prevent overfitting.
+**L2 Regularization with RMSprop and Early Stopping:** Achieved a test accuracy of 68%, showing that this combination helped the model perform even better by utilizing a different optimizer and early stopping to prevent overfitting.
 
-### **L2 Regularization with Dropout:** Achieved a test accuracy of 67%. The introduction of dropout slightly hindered performance, likely because it randomly deactivates neurons during training, making it harder for the model to learn certain features.
+**L2 Regularization with Dropout:** Achieved a test accuracy of 67%. The introduction of dropout slightly hindered performance, likely because it randomly deactivates neurons during training, making it harder for the model to learn certain features.
+
+## **Conclusion**
+- From the comparison, it is clear that L2 regularization without early stopping performed best in terms of test accuracy, achieving 78%, outperforming the vanilla model. 
+- This implies that L2 regularization provided a better balance between preventing overfitting and allowing the model to learn effectively.
