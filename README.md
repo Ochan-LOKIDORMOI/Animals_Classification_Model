@@ -174,3 +174,52 @@ off neurons during training and reduce reliance on specific features.
   ```colab
   !git clone https://github.com/Ochan-LOKIDORMOI/Animals_Classification_Model.git
   ```
+
+  ### **Step 2: Navigate to the Project Directory**
+  - Once the repository is cloned, navigate to the project folder:
+    ```
+    %cd Animals_Classification_Model
+    ```
+  - Or Open the Folder icon at the left corner of your `colab` and you will see the cloned repo
+ 
+  ### **Step 3: Import Required Libraries**
+  - Ensure the necessary libraries are imported, including `pickle` and other dependencies like `sklearn`, `pandas`, or `tensorflow`:
+    ```
+    import numpy as np
+    import random
+    import matplotlib.pyplot as plt
+    from tensorflow.keras.models import Sequential
+    from tensorflow.keras.layers import Conv2D, MaxPooling2D, Dense, Flatten, Dropout
+    from tensorflow.keras.optimizers import Adam
+    from sklearn.metrics import classification_report, confusion_matrix
+    from sklearn.model_selection import train_test_split
+    from tensorflow.keras.regularizers import l1
+    from tensorflow.keras.regularizers import l2
+    import seaborn as sns
+    import pandas as pd
+    import os
+    import cv2
+    import tensorflow as tf
+    from sklearn.preprocessing import StandardScaler
+    import pickle
+    ```
+
+    # **2. Load and Run the Pretrained Models**
+    ## **Step 4: Load the Pretrained Models**
+    - Your models are saved in the `saved_models/` folder using pickle.
+    -  To load a model, use the following code:
+   ```
+   # Load the best-performing model (Model 4)
+   model4 = pickle.load(open('Animals_Classification_Model/saved_models/L2_without_earlyStop.pkl', 'rb'))
+
+   #Load other models too as the one above
+   model5 = pickle.load(open('path/filename,pkl', 'rb'))
+   model6 = ................................
+   ```
+  ## **Step 5: Model Summary**
+  - If the model is a Scikit-learn model, you can check its parameters by printing it:
+    ```
+    print(model4)
+      or
+    model4.summary()
+    ```
