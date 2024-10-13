@@ -63,6 +63,9 @@ Recall might be particularly low, as evidenced by the imbalance in the confusion
 L2 regularization, which discourages large weight values by penalizing them, 
 was tested as another form of regularization without early stopping.
 
+![Screenshot 2024-10-13 055228](https://github.com/user-attachments/assets/d8b76e4c-0cc7-4127-855d-03077c6c5d8f)
+
+
 ### **Results:**
 - This model effectively controls overfitting while maintaining model complexity,
 leading to the best results across all key metrics.
