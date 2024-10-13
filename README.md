@@ -163,3 +163,14 @@ off neurons during training and reduce reliance on specific features.
 ## **Conclusion**
 - From the comparison, it is clear that L2 regularization without early stopping performed best in terms of test accuracy, achieving 78%, outperforming the vanilla model. 
 - This implies that L2 regularization provided a better balance between preventing overfitting and allowing the model to learn effectively.
+
+
+# **User Guide for Running Saved Models on Colab (with Pickle)**
+
+## **1. Setup Instructions**
+### **Step 1: Clone the Repository**
+- To get started, clone the repository containing the models and notebooks into your Colab environment.
+- Open a new notebook in Colab and run the following command:
+  ```colab
+  !git clone https://github.com/Ochan-LOKIDORMOI/Animals_Classification_Model.git
+  ```
