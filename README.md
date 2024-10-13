@@ -86,6 +86,9 @@ showing that changing the optimizer and adding early stopping was not as impactf
 To improve generalization further, dropout layers were added to the network to randomly switch
 off neurons during training and reduce reliance on specific features.
 
+![Screenshot 2024-10-13 055800](https://github.com/user-attachments/assets/93af8dc0-ce47-4b52-9269-7be0ec2282ed)
+
+
 ### **Results:**
 - The combination of L2 regularization and dropout achieved consistent results, with validation accuracy around 70%.
 While not outperforming the best L2 model, this technique effectively reduced overfitting.
